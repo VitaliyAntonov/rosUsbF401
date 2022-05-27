@@ -34,6 +34,12 @@
 #define APP_TX_DATA_SIZE  1000
 
 #define USB_RX_DATA_SIZE  2048
+
+int vcp_available();
+int vcp_read();
+void vcp_write(uint8_t* Buf, uint16_t Len);
+
+
 /* USER CODE END INCLUDE */
 
 /** @addtogroup STM32_USB_OTG_DEVICE_LIBRARY
@@ -51,8 +57,8 @@
   * @{
   */
 /* Define size for the receive and transmit buffer over CDC */
-//#define APP_RX_DATA_SIZE  1000
-//#define APP_TX_DATA_SIZE  1000
+#define APP_RX_DATA_SIZE  1000
+#define APP_TX_DATA_SIZE  1000
 /* USER CODE BEGIN EXPORTED_DEFINES */
 
 /* USER CODE END EXPORTED_DEFINES */

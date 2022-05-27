@@ -12,8 +12,8 @@ https://aliexpress.ru/item/4001116638841.html?spm=a2g2w.productlist.0.0.37c72184
 ![img.png](STM32F401-STM32F401CCU6-STM32F4.png)
 
 
-После чистки и переделки ссылок #include в проекте нормально откликается публикатор "kek" ROS
-при связи с RosSerial через USB
+После чистки и переделки ссылок #include в проекте нормально 
+откликается публикатор "kek" ROS при связи с RosSerial через USB
 
 Консольная команда запуска RosSerial:
 rosrun rosserial_python serial_node.py /dev/ttySTMusb
